@@ -262,6 +262,7 @@ function restart() {
   gameBox.style.display = 'none';
   massageW.style.display = 'none';
   cover.style.display = 'block';
+  hacker.style.display = 'none';
 }
 hackerBtn.addEventListener('click', () => {
   hackerBtn.style.display = 'none';
